@@ -19,11 +19,10 @@ class LoginPage extends StatelessWidget {
             SizedBox(height: 12),
             ElevatedButton(
               onPressed: () {
-                // NOTE: OTP logic to be wired with Firebase on Codemagic testing or later.
                 Navigator.push(context,
                     MaterialPageRoute(builder: (_) => RoleSelectionPage()));
               },
-              child: Text("Continue (OTP placeholder)"),
+              child: Text("Continue"),
             )
           ]),
         ),
